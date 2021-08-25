@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Logger implements Serializable, Cloneable {
 
+	private static final long serialVersionUID = 1L;
 	private static volatile Logger instance;
 
 	private Logger() {
